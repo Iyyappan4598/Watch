@@ -1,0 +1,48 @@
+<form action="">
+    <!-- Headings for the form -->
+    <div class="headingsContainer">
+        <h3>Admin Register</h3>
+    </div>
+
+    <!-- Main container for all inputs -->
+    <div class="mainContainer">
+        <!-- Username -->
+
+        <label for="name">Name</label>
+        <input type="text" placeholder="name" name="name" required>
+
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="text" placeholder="email" name="email" required>
+
+        <br><br>
+        <!-- Mobile number -->
+        <label for="mobile">Mobile</label>
+        <input type="number" placeholder="mobile" name="mobile" required>
+
+        <br><br>
+
+        <!-- Password -->
+        <label for="pswrd">Password</label>
+        <input type="password" placeholder="xxxxx" name="pswrd" required>
+        <br><br>
+
+        <label for="pswrd">Conform Password</label>
+        <input type="password" placeholder="xxxxx" name="pswrd" required>
+
+
+
+        <!-- Submit button -->
+        <button type="submit">Create an new account</button>
+
+        <div class="subcontainer">
+            <!-- <p class="login" type="submit">Already You have Account?<a href="#" routerLink="../AdminLogin"> <span>Login</span></a> -->
+                <p routerLink="../AdminLogin" class="register">Already You have Account?  <a href="#"> Login</a></p>
+            
+        </div>
+
+
+    </div>
+
+</form>
